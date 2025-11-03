@@ -69,5 +69,40 @@ export const docs: DocGroup[] = [
 			},
 		],
 	},
+	{
+		id: "approvals",
+		title: "Approvals",
+		description: "Comprehensive guide on the approval processes within the ORC Admin platform. This section details the various types of approvals, workflows, and best practices for managing submissions efficiently.",
+		docs: [
+			{
+				id: "approve-filings",
+				title: "Approve Filings",
+				description:
+					"Learn how to review and approve filings within the ORC Admin platform. This section provides step-by-step guidance on managing submissions and ensuring compliance with organizational standards.",
+				pageImage: null,
+			},
+			{
+				id: "approve-information-requests",
+				title: "Approve Information Requests",
+				description:
+					"Detailed instructions on handling information requests. Understand the process of reviewing, approving, or denying requests to maintain data integrity and security.",
+				pageImage: null,
+			},
+			{
+				id: "approve-documents-requests",
+				title: "Approve Document Requests",
+				description:
+					"Guidance on managing document requests within the platform. This section covers the approval workflow and best practices for handling sensitive information.",
+				pageImage: null,
+			},
+			{
+				id: "approve-conversions",
+				title: "Approve Conversions",
+				description:
+					"Steps to approve conversion requests. Learn how to evaluate and authorize conversions to ensure they meet the necessary criteria and standards.",
+				pageImage: null,
+			},
+		],
+			}
 ];
 
