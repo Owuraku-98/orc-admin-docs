@@ -69,5 +69,74 @@ export const docs: DocGroup[] = [
 			},
 		],
 	},
-];
+	{
+		id: "approve-registrations",
+		title: "Approve Registrations",
+		description:
+			"Comprehensive guide to approving entities registered by users within the ORC Admin platform. This sections covers step by step instructions on how to review and approve registrations",
+		docs: [
+			{
+				id: "transactions-timeline",
+				title: "Transactions Timeline",
+				description:
+					"Overview of the transactions timeline feature. This section highlights the key components and functionalities that help you monitor and manage transactions effectively.",
+				pageImage: null,
+			},
+			{
+				id: "pending-approvals",
+				title: "Pending Approvals",
+				description:
+					"Overview of the pending approvals feature. This section highlights the key components and functionalities that help you monitor and manage pending approvals effectively.",
+				pageImage: null,
+			},
+		],
+	},
+	{
+		id: "approve-changes",
+		title: "Approve Changes",
+		description:
+			"Comprehensive guide to approving changes made to registered entities within the ORC Admin platform. This section talks about how to review and approve changes made by users.",
+		docs: [
+			{
+				id: "adding-users",
+				title: "Adding Users",
+				description:
+					"Step-by-step instructions on how to add new users to the ORC Admin platform. Learn about the different user roles and how to assign them appropriately.",
+				pageImage: null,	
+			}
 
+		],
+	},
+	{
+		id: "approve-renewals",
+		title: "Approve Renewals",
+		description:
+			"Guide to approving renewals for registered entities within the ORC Admin platform. This section of the documentation provides detailed instructions on how to manage and approve renewals to registered entities.",
+		docs: [
+			{
+				id: "adding-users",
+				title: "Adding Users",
+				description:
+					"Step-by-step instructions on how to add new users to the ORC Admin platform. Learn about the different user roles and how to assign them appropriately.",
+				pageImage: null,	
+			}
+
+		],
+	},
+	{
+		id: "approve-reprints",
+		title: "Approve Reprints",
+		description:
+			"Comprehensive guide to approving user reprints within the ORC Admin platform. This section encompasses the approval process and best practices for maintaining a secure and efficient environment.",
+		docs: [
+			{
+				id: "adding-users",
+				title: "Adding Users",
+				description:
+					"Step-by-step instructions on how to add new users to the ORC Admin platform. Learn about the different user roles and how to assign them appropriately.",
+				pageImage: null,	
+			}
+
+		],
+	},
+];
